@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIAy4lMmWVkyBTwQywBKCeR3IRBQco4mdcGMeHDErstNHJx6UucXfWp10tb7uaFgDwq8I&usqp=CAU">
+</head>
+
+<body>
+    <div class="number">
+        <h1>Guess the Random Number</h1>
+        <p>You have 10 tries</p>
+        <div class="input">
+            <input type="text" id="inp">
+        </div>
+        <div class="submit">
+            <button onclick="submit()">Submit Guessed Number</button>
+        </div>
+        <div class="status">
+            <span><span id="name"></span>Guess</span>
+        </div>
+        <div class="tries">
+            <h1>You Have <span id="try">10</span> Tries Left</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
